@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,6 +9,9 @@ export default function Home() {
         <title>NewsApp - Home</title>
       </Head>
       <h1>Aprendiendo Next.js desde cero</h1>
+      <Link href="/about">Ir a about</Link>
+      <br></br>
+      <a href="/about">About</a>
     </div>
   );
 }
